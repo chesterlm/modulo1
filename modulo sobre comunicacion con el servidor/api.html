@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitudes a la API Falsa</title>
+    <script src="js/api.js" defer></script>
+    </head>
+    <body>
+
+    <h1>Solicitudes a la API Falsa</h1>
+
+    <section>
+        <h2>Solicitud GET</h2>
+        <button onclick="realizarSolicitudGET()">Obtener Usuarios</button>
+        <div id="get-result"></div>
+    </section>
+
+    <section>
+        <h2>Solicitud POST</h2>
+        <label for="nombre-usuario">Nombre de Usuario:</label>
+        <input type="text" id="nombre-usuario">
+        <button onclick="realizarSolicitudPOST()">Agregar Usuario</button>
+        <div id="post-result"></div>
+    </section>
+
+</body>
+</html>

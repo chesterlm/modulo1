@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almacenamiento Local y de Sesión</title>
+    <script src="js/script.js" defer></script>
+    </head>
+    <body>
+
+    <h1>Almacenamiento Local y de Sesión</h1>
+
+    <section>
+        <h2>Almacenamiento Local</h2>
+        <label for="local-input">Datos a almacenar:</label>
+        <input type="text" id="local-input">
+        <button onclick="guardarEnLocal()">Guardar</button>
+        <button onclick="recuperarDeLocal()">Recuperar</button>
+        <div id="local-result"></div>
+    </section>
+
+    <section>
+        <h2>Almacenamiento de Sesión</h2>
+        <label for="session-input">Datos a almacenar:</label>
+        <input type="text" id="session-input">
+        <button onclick="guardarEnSesion()">Guardar</button>
+        <button onclick="recuperarDeSesion()">Recuperar</button>
+        <div id="session-result"></div>
+    </section>
+
+</body>
+</html>
